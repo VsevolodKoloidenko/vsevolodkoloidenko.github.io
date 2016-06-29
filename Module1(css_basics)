@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+<style>
+  p{
+    color:red;
+    width: 640px;
+    height: 900px;
+    background-image: url(pattern1.png);
+    background-repeat: no-repeat;;
+    background-color: black;
+    background-position: center;
+    margin: 100px;
+  }
+</style>
+
+</head>
+<body>
+  <div>
+  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam deleniti totam quibusdam, eum consequuntur, assumenda enim deserunt vitae quo odio veritatis distinctio id exercitationem mollitia. Quia adipisci nostrum quibusdam nobis!</p>
+</div>
+</body>
+</html>

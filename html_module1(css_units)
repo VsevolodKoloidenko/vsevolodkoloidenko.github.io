@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style>
+  body{
+    margin: 0;
+  }
+.wrapper{
+  width: 1440px;
+  background: green;
+}
+
+.box{
+  width: 30%;
+  background: black;
+  color: white;
+}
+  </style>
+
+</head>
+<body>
+
+  <div class="wrapper">
+    <div class="box">
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, sequi, excepturi. Officiis et earum consectetur, incidunt autem atque blanditiis neque, harum quo fugiat, quos sed recusandae repellat assumenda minus reiciendis!
+  </div>
+  </div>
+
+</body>
+</html>
