@@ -1,0 +1,124 @@
+
+/*мой css*/
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,400,600,300,800);
+
+.wrapper{
+  width: 1063px;
+  margin: auto;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  padding-bottom: 60px;
+  margin-bottom: 60px;}
+  
+body {
+  font-family: 'Open sans', sans-serif;
+  font-size: 13px;
+}
+
+.logo{
+    margin-left: 47px;
+    margin-top: 50px;
+
+}
+.menu{
+  background: linear-gradient(to bottom, #5e5e5e 0%,#444343 100%);
+  margin-top: 38px;
+  margin-left: 47px;
+  margin-bottom: 40px;
+  margin-right: 47px;
+
+  }
+
+.menu-link{
+  text-decoration: none;
+  color: white;
+  display: inline-block;
+  line-height: 40px;
+  padding: 0px 25px;
+  font-size: 15px;
+
+
+  text-shadow:  1px 1px 0px #000;
+filter:dropshadow(color= 1px 1px 0px #000);
+}
+
+.menu-link:hover{
+  background-color: #3c3c3c;
+}
+
+
+.menu-item {
+  font-size:13px;
+  display: inline-block;
+  margin-right: 40px;
+}
+
+.leftmenu{
+  float: left;
+}
+
+.content{
+  width: 680px;
+  float:right;
+  margin-right: 71px;
+  /*margin-left: 48px;*/
+}
+.bike{
+    padding: 46px 0;
+  text-align: center;
+  border: 1px solid gray;
+  margin-bottom: 31px;
+
+}
+
+.submenu{
+  width: 240px;
+  margin-left: 25px;
+
+}
+
+  .submenu-link{
+    display: inline-block;
+    text-decoration: none;
+    line-height: 38px;
+    border: 1px solid gray;
+    border-bottom: 0px;
+    width: 214px;
+    color: gray;
+    padding-left: 25px;
+  }
+.last{
+  border-bottom: 1px solid gray;
+}
+.ff{
+  width: 100%;
+  clear: right;
+}
+
+.menu-footer{
+  background: #e1e1e1;
+  margin-bottom: 60px;
+
+}
+
+.footer-item {
+  display: inline-block;
+}
+
+.footer-link{
+  color: black;
+  text-shadow: none;
+}
+.footer-link:hover{
+  text-decoration: underline;
+  background-color: transparent;
+}
+.footer-item-last{
+  float: right;
+  margin-top: auto;
+  margin-top: 15px;
+}
+.text{
+line-height: 30px;
+padding-bottom: 60px;
+
+}
