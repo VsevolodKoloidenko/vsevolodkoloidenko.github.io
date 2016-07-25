@@ -36,40 +36,21 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
   padding-right: 33px;
 
 }
-.flags{
-text-align: right;
-/*padding-left: 10px;*/
-}
-.flags img{
-  padding-left: 10px;
-}
+
 .country-names li{
-  display: inline-block;
+  display: block;
   float: right;
-  font-size: 10px;
-  text-align: right;
+  font-size: 11px;
+  text-align: center;
+  width: 55px;
+
+
 }
 .country-names a{
   color: #128aa7;
 
 }
-.maldiv{
-  padding-left: 9px;
-}
-.srilanka{
-  padding-left: 19px;
-}
-.butan{
-  padding-left: 32px;
-}
-.tibet{
-  padding-left: 32px;
-}
-.nepal{
-  padding-left: 30px;
-}
-.india{
-  padding-left: 9px;
+
 }
 .photo{
   border-bottom: 1px solid #128aa7;
@@ -175,6 +156,27 @@ width: 580px;
 }
 .mymenu ul.menu > li:hover > ul.submenu {
     display: block;
+}
+
+.left p{
+  line-height: 24px;
+    font-family: Tahoma;
+}
+.right p{
+  line-height: 24px;
+  font-family: Tahoma;
+}
+
+{.Lorem_ipsum_dolor_sit_amet_Lorem_ipsum_dolor_si {
+  font-size: 14px;
+  font-family: "Tahoma";
+  color: rgb(66, 76, 67);
+  line-height: 1.714;
+  position: absolute;
+  left: 957px;
+  top: 536.913px;
+  z-index: 8;
+}
 }
 
 .footer{

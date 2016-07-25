@@ -8,7 +8,7 @@
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
   padding-bottom: 60px;
   margin-bottom: 60px;}
-  
+
 body {
   font-family: 'Open sans', sans-serif;
   font-size: 13px;
@@ -43,7 +43,10 @@ filter:dropshadow(color= 1px 1px 0px #000);
 
 .menu-link:hover{
   background-color: #3c3c3c;
-}
+  border-left: 1px solid #838383;
+  border-right: 1px solid #838383;
+
+  }
 
 
 .menu-item {
@@ -86,6 +89,10 @@ filter:dropshadow(color= 1px 1px 0px #000);
     color: gray;
     padding-left: 25px;
   }
+  .submenu-link:hover{
+    background-color: #f9f9f9;
+  }
+
 .last{
   border-bottom: 1px solid gray;
 }
