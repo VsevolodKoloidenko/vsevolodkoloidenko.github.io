@@ -48,17 +48,20 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
 }
 .country-names a{
   color: #128aa7;
-
 }
 
-}
+
 .photo{
-  border-bottom: 1px solid #128aa7;
-  border-top: 1px solid #128aa7;
-
   -webkit-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
 box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
+}
+
+.photo img{
+      border: 1px solid #128aa7;
+      border-left: 0;
+      border-right: 0;
+      margin-bottom: -2px;
 }
 .left{
   display: table-cell;
@@ -66,6 +69,8 @@ box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.75);
   background: #edeef0;
   padding: 5px 15px;
   text-align: justify;
+  border-left: 1px solid #c7cacf;
+border-right: 1px solid #c7cacf;
 }
 
 .left h2{
@@ -85,6 +90,8 @@ width: 580px;
   background: #edeef0;
   padding: 5px 15px;
   text-align: justify;
+  border-left: 1px solid #c7cacf;
+border-right: 1px solid #c7cacf;
 }
 .right h2{
   font: 18px  'Tahoma';
@@ -98,9 +105,8 @@ width: 580px;
     font: 14px 'Tahoma';
     margin: 0;
     padding: 0;
-
     background-color: #373737;
-
+    box-shadow: 0 3px 10px rgba(0,0,0, 0.5);
 }
 .mymenu ul {
     display: block;
@@ -158,26 +164,24 @@ width: 580px;
     display: block;
 }
 
+.container{
+  margin-top: 0px;
+  border: 1px solid #000;
+  border-left: 0px;
+  border-right: 0px;
+}
+
 .left p{
   line-height: 24px;
     font-family: Tahoma;
+    font-size: 14px;
 }
 .right p{
   line-height: 24px;
   font-family: Tahoma;
+  font-size: 14px;
 }
 
-{.Lorem_ipsum_dolor_sit_amet_Lorem_ipsum_dolor_si {
-  font-size: 14px;
-  font-family: "Tahoma";
-  color: rgb(66, 76, 67);
-  line-height: 1.714;
-  position: absolute;
-  left: 957px;
-  top: 536.913px;
-  z-index: 8;
-}
-}
 
 .footer{
   text-align: center;
