@@ -15,7 +15,7 @@ else {
   }
 }
 
-  alert(num, ' in ', exp, ' = ', result);
+  alert('number ' + num + ' in exponent ' + exp + ' = ' +result);
 }
 
 myMathPow();
