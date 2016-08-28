@@ -12,11 +12,10 @@ else {
 
   for (var i = 1; i < exp; i++) {
     result *= num;
-    console.log('result =', result);
   }
 }
 
-  console.log(num, ' in ', exp, ' = ', result);
+  alert(num, ' in ', exp, ' = ', result);
 }
 
 myMathPow();
