@@ -86,7 +86,7 @@ nav .user-offers a:hover{
   background-color: transparent;
   color: white;
   line-height: 32px;
-  border-bottom: 4px inset white;
+  border-bottom: 4px solid white;
 }
 
 nav .user-offers img{
